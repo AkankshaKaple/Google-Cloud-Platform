@@ -1,8 +1,0 @@
-# Command to start zookeeper
-zookeper    /usr/local/kafka/bin/zookeeper-server-start.sh /usr/local/kafka/config/zookeeper.properties
-
-# Command to start server
-server     /usr/local/kafka/bin/kafka-server-start.sh /usr/local/kafka/config/server.properties
-
-# Run Consumer
-/usr/local/kafka/bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic numtest_topic_1 --from-beginning
